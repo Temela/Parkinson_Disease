@@ -5,7 +5,14 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 
 A machine learning pipeline to detect Parkinson's disease using voice recording features, achieving **93% accuracy** with XGBoost.
-
+```markdown
+# 🎯 Quick Glance
+| Metric          | Score |
+|-----------------|-------|
+| Best Accuracy   | 93%   |
+| Key Algorithm   | XGBoost |
+| Feature Count   | 20    |
+```
 ## 📌 Table of Contents
 - [Project Overview](#-project-overview)
 - [Key Features](#-key-features)
@@ -42,12 +49,6 @@ This project develops a diagnostic tool that analyzes **754 vocal features** to 
 
 Source: Aggregated from multiple research studies on Parkinson's voice analysis
 
-## ⚙️ Installation
-1. Clone repository:
-   ```bash
-   git clone https://github.com/temela/parkinson_disease.git
-   cd parkinson-voice-detection
-
 ## 📊 Results & Evaluation
 
 ### Model Performance
@@ -78,22 +79,12 @@ graph LR
     D --> E[Evaluation]
 ```
 
----
+## ⚙️ Installation
+1. Clone repository:
+   ```bash
+   git clone https://github.com/temela/parkinson_disease.git
+   cd parkinson-voice-detection
 
-### 🎯 **Best Practices**
-1. **For Results**:
-   - Use tables for clear metric comparison
-   - Include visualizations (confusion matrix/ROC curves)
-   - Highlight most surprising/important findings
 
-2. **For Technical Approach**:
-   - Use diagrams (Mermaid/flowcharts)
-   - Break down into clear phases
-   - Mention key algorithms/techniques used
 
-3. **Placement**:
-   - Put **Results** before Technical Approach (people want outcomes first)
-   - Keep both sections **above** Installation/Usage in your README
-
----
 
